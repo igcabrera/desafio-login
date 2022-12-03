@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/desafio-login/static/css/main.e6c13ad2.css",
+    "main.js": "/desafio-login/static/js/main.b508aaab.js",
+    "index.html": "/desafio-login/index.html",
+    "main.e6c13ad2.css.map": "/desafio-login/static/css/main.e6c13ad2.css.map",
+    "main.b508aaab.js.map": "/desafio-login/static/js/main.b508aaab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.b508aaab.js"
+  ]
+}
