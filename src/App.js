@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Boton from "./components/boton/boton";
+import Input from "./components/input/input";
 
 function App() {
+  const [nombre, setNombre] = useState('');
+  const [password, setPassword] = useState('');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container center">
+    <h1 className="mb-5 mt-5">Formulario</h1>
+      <div className="form-group">
+        <Input
+          nombre={nombre}
+          setNombre={setNombre}
+          password={password}
+          setPassword={setPassword}
+        />
+        {password === '252525' ? <Boton /> : null}
+       </div>
     </div>
   );
 }
